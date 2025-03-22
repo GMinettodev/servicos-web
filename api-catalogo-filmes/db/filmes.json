@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "O Poderoso Chefão",
+    "descricao": "Um épico sobre uma família mafiosa",
+    "ano": 1972,
+    "genero": "Drama",
+    "nota": 9.2
+  },
+  {
+    "id": 2,
+    "titulo": "Matrix",
+    "descricao": "Um hacker descobre uma realidade alternativa",
+    "ano": 1999,
+    "genero": "Ficção Científica",
+    "nota": 8.7
+  },
+  {
+    "id": 3,
+    "titulo": "Toy Story",
+    "descricao": "Brinquedos ganham vida quando ninguém está olhando",
+    "ano": 1995,
+    "genero": "Animação",
+    "nota": 8.3
+  }
+]

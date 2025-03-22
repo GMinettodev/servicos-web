@@ -1,0 +1,25 @@
+### Endpoint GET /api/Alunos
+GET http://localhost:3000/api/alunos
+
+### Endpoint POST /api/alunos
+POST http://localhost:3000/api/alunos
+Content-Type: application/json
+
+{
+    "nome": "Cristina",
+    "curso": "Letras",
+    "idade": 18
+}
+
+### Endpoint POST /api/alunos
+PUT http://localhost:3000/api/alunos/1
+Content-Type: application/json
+
+{
+    "nome": "John Smith",
+    "curso": "Letras",
+    "idade": 22
+}
+
+### Endpoint DELETE /api/alunos/{id}
+DELETE http://localhost:3000/api/alunos/1
