@@ -22,4 +22,4 @@ app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
 
-app.use('/api', filmesRotas);
+app.use('/api', routesFilmes);

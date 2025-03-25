@@ -1,0 +1,37 @@
+### 1. Listar todos os filmes
+GET http://localhost:4000/filmes
+Accept: application/json
+
+### 2. Filtrar por genero (exemplo: "drama")
+GET http://localhost:4000/filmes?genero=drama
+Accept: application/json
+
+### 3. Buscar um filme por ID (substituir {id} pelo ID desejado)
+GET http://localhost:4000/filmes/3
+Accept: application/json
+
+### 4. Adicionar um novo filme
+POST http://localhost:4000/filmes
+Content-Type: application/json
+
+{
+"titulo": "A volta dos que não foram",
+"descricao": "Um grupo de pessoas desaparecidas retorna misteriosamente, trazendo à tona segredos que desafiam o entendimento do tempo e da realidade.",
+"ano": 2025,
+"genero": "Ficção Científica",
+"nota": 0
+}
+
+### 5. Atualizar um filme existente (substituir {id} pelo ID desejado)
+PUT http://localhost:4000/filmes/1
+Content-Type: application/json
+
+{
+"nome": "X-Bacon Deluxe",
+"descricao": "Pão, hambúrguer, queijo, bacon crocante, maionese especial",
+"preco": 25.00,
+"categoria": "sanduíche"
+}
+
+### 6. Remover um filme pelo ID (substituir {id} pelo ID desejado)
+DELETE http://localhost:4000/filmes/3
